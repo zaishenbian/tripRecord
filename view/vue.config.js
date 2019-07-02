@@ -33,6 +33,7 @@ module.exports = {
   /** 开发环境代理 */
   devServer: {
     open: true,
+    https: true,
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
